@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+</head>
+<body>
+    <header id="header" class="header">Let's test your memory!</header>
+    <br />
+    <br />
+    <div id="container" class="container">
+        <div>
+            <p>Choose difficulty:</p>
+            <div>
+                <input id="easy" value="easy" name="level" type="radio">
+                <label for="easy">Easy (4)</label>
+            </div>
+            <div>
+                <input id="medium" value="medium" name="level" type="radio">
+                <label for="medium">Medium (5)</label>
+            </div>
+            <div>
+                <input id="hard" value="hard" name="level" type="radio">
+                <label for="hard">Hard (7)</label>
+            </div>
+            <div>
+                <input id="genius" value="genius" name="level" type="radio">
+                <label for="genius">Genius (9)</label>
+            </div>
+        </div>
+        <br />
+        <button id="start" type="button" onclick="getNum()">Start!</button>
+        <div id="help"><p>(Click the number to make it dissapear when you're ready!)</p></div>
+        <p onclick="dissapear()" id="num"></p>
+        <p id="prompt"></p>
+        <p id="feedback"></p>
+    </div>
+    <button type="button" onclick="reset()">Reset</button>
+
+    <script src="script.js"></script>
+</body>
+</html>

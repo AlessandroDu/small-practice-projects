@@ -1,0 +1,37 @@
+.page-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: gray;
+    height: 5vh;
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+#result {
+    position: relative;
+    left: 37vw;
+}
+
+.quiz-container {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    width: fit-content;
+    position: relative;
+    left: 37vw;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.buttons {
+    display: flex;
+    gap: 2px;
+}
+
+#submit {
+    background-color: greenyellow;
+}

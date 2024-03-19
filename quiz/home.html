@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" />
+    <title>Quiz</title>
+</head>
+<body>
+    <header class="page-header">JavaScript Quiz</header>
+    <br />
+    <div id="result"></div>
+    <br />
+    <section class="quiz-container">
+        <article>
+            <header id="h1">1. Which keyword is used to declare a variable in JavaScript?</header>
+            <form>
+                <div>
+                    <input type="checkbox" value="a" id="1" />
+                    <label for="1">var</label>
+                </div>
+                <div>
+                    <input type="checkbox" value="b" id="2" />
+                    <label for="2">const</label>
+                </div>
+                <div>
+                    <input type="checkbox" value="c" id="3" />
+                    <label for="3">let</label>
+                </div>
+            </form>
+        </article>
+        <br />
+        <article>
+            <header id="h2">2. What does the "=== operator" in JavaScript do?</header>
+            <form>
+                <div>
+                    <input type="radio" value="a" id="4" />
+                    <label for="4">Checks for equality in value and type</label>
+                </div>
+                <div>
+                    <input type="radio" value="b" id="5" />
+                    <label for="5">Checks for equality in value only</label>
+                </div>
+                <div>
+                    <input type="radio" value="c" id="6" />
+                    <label for="6"> Checks for equality in type only</label>
+                </div>
+            </form>
+        </article>
+        <br />
+        <article>
+            <header id="h3">3. Which function is used to print something to the console in JavaScript?</header>
+            <form>
+                <div>
+                    <input type="radio" value="a" id="7" />
+                    <label for="7">console.log()</label>
+                </div>
+                <div>
+                    <input type="radio" value="b" id="8" />
+                    <label for="8">print()</label>
+                </div>
+                <div>
+                    <input type="radio" value="c" id="9" />
+                    <label for="9">log()</label>
+                </div>
+            </form>
+        </article>
+        <br />
+        <article>
+            <header id="h4">4. Which loop in JavaScript does not check any condition to execute?</header>
+            <form>
+                <div>
+                    <input type="radio" value="a" id="10" />
+                    <label for="10">for loop</label>
+                </div>
+                <div>
+                    <input type="radio" value="b" id="11" />
+                    <label for="11">while loop</label>
+                </div>
+                <div>
+                    <input type="radio" value="c" id="12" />
+                    <label for="12">do...while loop</label>
+                </div>
+            </form>
+        </article>
+        <br />
+        <article>
+            <header id="h5">5. What is the correct way to include an external JavaScript file named "script.js" in an HTML file?</header>
+            <form>
+                <div>
+                    <input type="radio" value="a" id="13" />
+                    <label for="13">&lt;script src="script.js"&gt;&lt;/script&gt;</label>
+                </div>
+                <div>
+                    <input type="radio" value="b" id="14" />
+                    <label for="14">&lt;javascript src="script.js"&gt;&lt;/javascript&gt;</label>
+                </div>
+                <div>
+                    <input type="radio" value="c" id="15" />
+                    <label for="15">&lt;script href="script.js"&gt;&lt;/script&gt;</label>
+                </div>
+            </form>
+        </article>
+        <br />
+        <article>
+            <header id="h6">6. Which of the following are valid data types in JavaScript?</header>
+            <form>
+                <div>
+                    <input type="checkbox" value="a" id="16" />
+                    <label for="16">Number</label>
+                </div>
+                <div>
+                    <input type="checkbox" value="b" id="17" />
+                    <label for="17">Object</label>
+                </div>
+                <div>
+                    <input type="checkbox" value="c" id="18" />
+                    <label for="18">Character</label>
+                </div>
+            </form>
+        </article>
+        <br />
+        <section id="buttons" class="buttons">
+            <button id="submit" onclick="submit()">Submit answers</button>
+        </section>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>

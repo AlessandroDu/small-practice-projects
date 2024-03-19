@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" />
+    <title>Rock Paper Scissors</title>
+</head>
+<body>
+    <div class="container">
+        <div id="winner"></div>
+        <br />
+        <div id="score"></div>
+        <br />
+        <section id="buttons" class="buttons">
+            <button id="0" class="rock" type="button" onclick="addScore(this)">Rock</button>
+            <button id="1" class="paper" type="button" onclick="addScore(this)">Paper</button>
+            <button id="2" class="scissors" type="button" onclick="addScore(this)">Scissors</button>
+            <button id="reset" class="reset" type="button" onclick="reset()">Reset</button>
+        </section>
+        <br />
+        <div id="comparison"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

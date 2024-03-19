@@ -1,0 +1,13 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: calc(50vw - 50%);
+    top: 40vh;
+}
+
+#count {
+    font-size: xx-large;
+}

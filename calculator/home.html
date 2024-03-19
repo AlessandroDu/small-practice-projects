@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" />
+    <title>Calculator</title>
+</head>
+<body>
+    <div class="calculator-container">
+        <section id="display" class="display"></section>
+        <section id="factors" class="factors">
+            <div onclick="storeOp(this)">+</div>
+            <div onclick="storeOp(this)">-</div>
+            <div onclick="storeOp(this)">x</div>
+            <div onclick="storeOp(this)">/</div>
+        </section>
+        <section id="numbersAndResult" class="numbers-result">
+            <section class="numbers">
+                <section class="row">
+                    <div onclick="makeNum(this)" id="7" value="7">7</div>
+                    <div onclick="makeNum(this)" id="8" value="8">8</div>
+                    <div onclick="makeNum(this)" id="9" value="9">9</div>
+                </section>
+                <section class="row">
+                    <div onclick="makeNum(this)" id="4" value="4">4</div>
+                    <div onclick="makeNum(this)" id="5" value="5">5</div>
+                    <div onclick="makeNum(this)" id="6" value="6">6</div>
+                </section>
+                <section class="row">
+                    <div onclick="makeNum(this)" id="1" value="1">1</div>
+                    <div onclick="makeNum(this)" id="2" value="2">2</div>
+                    <div onclick="makeNum(this)" id="3" value="3">3</div>
+                </section>
+                <section class="row">
+                    <div onclick="makeNum(this)" id="0" value="0">0</div>
+                    <div onclick="makeNum(this)" id="." value=".">.</div>
+                    <div onclick="cancel()">c</div>
+                </section>
+            </section>
+            <button onclick="result()" type="button" id="result">=</button>
+        </section>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
